@@ -4,7 +4,7 @@ Coursera platform/Stanford University
 Coursera: Algorithms: Design and Analysis, Part 1 & Part 2
 =======================================================
 
-Programming assignments for `Algorithms: Design and Analysis, Part1 & Part2  <https://www.coursera.org/specializations/algorithms>`_.
+Programming assignments for `Algorithms: Design and Analysis Specialization <https://www.coursera.org/specializations/algorithms>`_.
 ----------------------------------------------------------------------------
 
 **Week1: Merge sort**
