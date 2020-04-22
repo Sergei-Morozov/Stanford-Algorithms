@@ -1,4 +1,4 @@
-# Coursera [Algorithms specialization](<https://www.coursera.org/specializations/algorithms>) from Stanford University 
+# Coursera [Algorithms specialization](<https://www.coursera.org/specializations/algorithms>) from Stanford University
 
 ## Courses:
 
@@ -17,7 +17,9 @@
 
 
 ### Week 1
-
+- [Count inversions]()
+- [Multiply Maxtrix]()
+- [Closest Pair]()
 - [Merge Sort]()
 
 ### Week 2
