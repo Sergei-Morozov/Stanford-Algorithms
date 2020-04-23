@@ -4,6 +4,10 @@ Quick sort
 2. Swap values arround pivot in 2 areas: less and bigger
 3. Swap pivot value from low to position between less|pivot|bigger
 4. Recursively sort less and bigger parts
+-----------------------------------------
+| p |  <p  |idx|   >p   |  next to check |
+-----------------------------------------
+
 """
 import random
 
@@ -30,6 +34,7 @@ def quickSort(array, low, high):
 
     pivot_value = array[low]
     idx_next = low + 1
+    # place all values bigger then pivot to proper position
     for i in range(low + 1, high):
         if array[i] < pivot_value:
             swap(array, idx_next, i)

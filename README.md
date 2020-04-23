@@ -16,18 +16,19 @@
 ### Week 1
 ### Programming Assignment 1: Divide & Conquer
 
-Problem: [Count inversions](https://github.com/Sergei-Morozov/Coursera-Algorithms/blob/master/Divide%20and%20Conquer/week1/inversions.py)
-Problem: [Multiply Maxtrix](https://github.com/Sergei-Morozov/Coursera-Algorithms/blob/master/Divide%20and%20Conquer/week1/matrix_multiply.py)
-Problem: [Closest Pair](https://github.com/Sergei-Morozov/Coursera-Algorithms/blob/master/Divide%20and%20Conquer/week1/closest_pair.py)
-Problem: [Merge Sort](https://github.com/Sergei-Morozov/Coursera-Algorithms/blob/master/Divide%20and%20Conquer/week1/merge_sort.py)
+Problem: [Count inversions](https://github.com/Sergei-Morozov/Coursera-Algorithms/blob/master/Divide%20and%20Conquer/week1/inversions.py)  </br>
+Problem: [Multiply Maxtrix](https://github.com/Sergei-Morozov/Coursera-Algorithms/blob/master/Divide%20and%20Conquer/week1/matrix_multiply.py)  </br>
+Problem: [Closest Pair](https://github.com/Sergei-Morozov/Coursera-Algorithms/blob/master/Divide%20and%20Conquer/week1/closest_pair.py)  </br>
+Problem: [Merge Sort](https://github.com/Sergei-Morozov/Coursera-Algorithms/blob/master/Divide%20and%20Conquer/week1/merge_sort.py)  </br>
 
 ### Week 2
 ### Programming Assignment 2:  Master Theorem
 
-Problem: [Quick Sort]()
+Problem: [Binary search]()  </br>
+Problem: [Quick Sort]()  </br>
 
 ### Week 3
 ### Programming Assignment 3: Graphs
 
-Problem: [Quick Sort]()
+Problem: [Graph]()  </br>
 
