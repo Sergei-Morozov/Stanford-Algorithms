@@ -11,17 +11,23 @@
 - [Shortest Paths Revisited, NP-Complete Problems and What To Do About Them](https://www.coursera.org/learn/algorithms-npcomplete)
 
 
-## Programming assignments
-
-## Divide and Conquer, Sorting and Searching, and Randomized Algorithms
-
+## [Divide and Conquer, Sorting and Searching, and Randomized Algorithms](https://www.coursera.org/learn/algorithms-divide-conquer)
 
 ### Week 1
-- [Count inversions]()
-- [Multiply Maxtrix]()
-- [Closest Pair]()
-- [Merge Sort]()
+### Programming Assignment 1: Divide & Conquer
+
+Problem: [Count inversions](https://github.com/Sergei-Morozov/Coursera-Algorithms/blob/master/Divide%20and%20Conquer/week1/inversions.py)
+Problem: [Multiply Maxtrix](https://github.com/Sergei-Morozov/Coursera-Algorithms/blob/master/Divide%20and%20Conquer/week1/matrix_multiply.py)
+Problem: [Closest Pair](https://github.com/Sergei-Morozov/Coursera-Algorithms/blob/master/Divide%20and%20Conquer/week1/closest_pair.py)
+Problem: [Merge Sort](https://github.com/Sergei-Morozov/Coursera-Algorithms/blob/master/Divide%20and%20Conquer/week1/merge_sort.py)
 
 ### Week 2
+### Programming Assignment 2:  Master Theorem
 
-- [Quick Sort]()
+Problem: [Quick Sort]()
+
+### Week 3
+### Programming Assignment 3: Graphs
+
+Problem: [Quick Sort]()
+
