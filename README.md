@@ -30,5 +30,7 @@ Problem: [Quick Sort]()  </br>
 ### Week 3
 ### Programming Assignment 3: Graphs
 
+Problem: [Randomized Select]()  </br>
+Problem: [Determenistic Select]()  </br>
 Problem: [Graph]()  </br>
 
