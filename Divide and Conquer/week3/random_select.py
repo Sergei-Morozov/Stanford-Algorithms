@@ -43,6 +43,13 @@ def rselect(array, ith, low, high):
         return rselect(array, ith, pivot_idx+1, high)
 
 input = [1, 2, 3, 5, 4]
+print(rselect(input, 4, 0, len(input)))
 
-result = rselect(input, 4, 0, len(input))
-print(result)
+# Run tests
+def test_select(function):
+    input = [i for i in range(0,100)]
+
+    for i in range(0,100):
+        assert input[function(input, i, 0, 100)] == i
+
+test_select(rselect)

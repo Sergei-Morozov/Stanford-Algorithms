@@ -31,6 +31,6 @@ Problem: [Quick Sort]()  </br>
 ### Programming Assignment 3: Graphs
 
 Problem: [Randomized Select]()  </br>
-Problem: [Determenistic Select]()  </br>
+Problem: [Deterministic Select]()  </br>
 Problem: [Graph]()  </br>
 
