@@ -32,5 +32,5 @@ Problem: [Quick Sort](https://github.com/Sergei-Morozov/Coursera-Algorithms/blob
 
 Problem: [Randomized Select](https://github.com/Sergei-Morozov/Coursera-Algorithms/blob/master/Divide%20and%20Conquer/week3/random_select.py)  </br>
 Problem: [Deterministic Select](https://github.com/Sergei-Morozov/Coursera-Algorithms/blob/master/Divide%20and%20Conquer/week3/deterministic_select.py)  </br>
-Problem: [Graph Minimal Cut]()  </br>
+Problem: [Graph Minimal Cut](https://github.com/Sergei-Morozov/Coursera-Algorithms/blob/master/Divide%20and%20Conquer/week3/min_cut_graph.py)  </br>
 
