@@ -22,15 +22,15 @@ Problem: [Closest Pair](https://github.com/Sergei-Morozov/Coursera-Algorithms/bl
 Problem: [Merge Sort](https://github.com/Sergei-Morozov/Coursera-Algorithms/blob/master/Divide%20and%20Conquer/week1/merge_sort.py)  </br>
 
 ### Week 2
-### Programming Assignment 2:  Master Theorem
+### Programming Assignment 2: Recursion & Master Theorem
 
-Problem: [Binary search]()  </br>
-Problem: [Quick Sort]()  </br>
+Problem: [Binary search](https://github.com/Sergei-Morozov/Coursera-Algorithms/blob/master/Divide%20and%20Conquer/week2/binary_search.py)  </br>
+Problem: [Quick Sort](https://github.com/Sergei-Morozov/Coursera-Algorithms/blob/master/Divide%20and%20Conquer/week2/quick_sort.py)  </br>
 
 ### Week 3
-### Programming Assignment 3: Graphs
+### Programming Assignment 3: Random Selects & Graphs
 
-Problem: [Randomized Select]()  </br>
-Problem: [Deterministic Select]()  </br>
-Problem: [Graph]()  </br>
+Problem: [Randomized Select](https://github.com/Sergei-Morozov/Coursera-Algorithms/blob/master/Divide%20and%20Conquer/week3/random_select.py)  </br>
+Problem: [Deterministic Select](https://github.com/Sergei-Morozov/Coursera-Algorithms/blob/master/Divide%20and%20Conquer/week3/deterministic_select.py)  </br>
+Problem: [Graph Minimal Cut]()  </br>
 
