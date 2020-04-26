@@ -74,7 +74,7 @@ def minimal_cut(graph):
 
 
 
-#Run V^2 times
+#Run this V^2 times to get best cut
 min_cut = float('inf')
 min_graph = None
 for _ in range(7**2):

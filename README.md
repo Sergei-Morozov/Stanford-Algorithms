@@ -33,3 +33,16 @@ Problem: [Quick Sort](https://github.com/Sergei-Morozov/Coursera-Algorithms/blob
 Problem: [Randomized Select](https://github.com/Sergei-Morozov/Coursera-Algorithms/blob/master/Divide%20and%20Conquer/week3/random_select.py)  </br>
 Problem: [Deterministic Select](https://github.com/Sergei-Morozov/Coursera-Algorithms/blob/master/Divide%20and%20Conquer/week3/deterministic_select.py)  </br>
 Problem: [Graph Minimal Cut](https://github.com/Sergei-Morozov/Coursera-Algorithms/blob/master/Divide%20and%20Conquer/week3/min_cut_graph.py)  </br>
+
+## [Graph Search, Shortest Paths, and Data Structures](https://www.coursera.org/learn/algorithms-graphs-data-structures)
+
+### Week 4
+### Programming Assignment 4: Graph search
+
+Problem: [BFS and Connected Components)](https://github.com/Sergei-Morozov/Coursera-Algorithms/blob/master/Divide%20and%20Conquer/week3/random_select.py)  </br>
+Problem: [DFS and Topological sort](https://github.com/Sergei-Morozov/Coursera-Algorithms/blob/master/Divide%20and%20Conquer/week3/deterministic_select.py)  </br>
+Problem: [Strongly Connected Components](https://github.com/Sergei-Morozov/Coursera-Algorithms/blob/master/Divide%20and%20Conquer/week3/deterministic_select.py)  </br>
+
+### Week 5
+### Programming Assignment 4: Path, Trees, Heaps
+Problem: [Dijkstra's shortest path)](https://github.com/Sergei-Morozov/Coursera-Algorithms/blob/master/Divide%20and%20Conquer/week3/random_select.py)  </br>
