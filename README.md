@@ -11,6 +11,7 @@
 - [Shortest Paths Revisited, NP-Complete Problems and What To Do About Them](https://www.coursera.org/learn/algorithms-npcomplete)
 
 
+
 ## [Divide and Conquer, Sorting and Searching, and Randomized Algorithms](https://www.coursera.org/learn/algorithms-divide-conquer)
 
 ### Week 1
@@ -39,10 +40,10 @@ Problem: [Graph Minimal Cut](https://github.com/Sergei-Morozov/Coursera-Algorith
 ### Week 4
 ### Programming Assignment 4: Graph search
 
-Problem: [BFS and Connected Components)](https://github.com/Sergei-Morozov/Coursera-Algorithms/blob/master/Divide%20and%20Conquer/week3/random_select.py)  </br>
+Problem: [BFS and Connected Components](https://github.com/Sergei-Morozov/Coursera-Algorithms/blob/master/Divide%20and%20Conquer/week3/random_select.py)  </br>
 Problem: [DFS and Topological sort](https://github.com/Sergei-Morozov/Coursera-Algorithms/blob/master/Divide%20and%20Conquer/week3/deterministic_select.py)  </br>
 Problem: [Strongly Connected Components](https://github.com/Sergei-Morozov/Coursera-Algorithms/blob/master/Divide%20and%20Conquer/week3/deterministic_select.py)  </br>
 
 ### Week 5
-### Programming Assignment 4: Path, Trees, Heaps
-Problem: [Dijkstra's shortest path)](https://github.com/Sergei-Morozov/Coursera-Algorithms/blob/master/Divide%20and%20Conquer/week3/random_select.py)  </br>
+### Programming Assignment 5: Path, Trees, Heaps
+Problem: [Dijkstra's shortest path](https://github.com/Sergei-Morozov/Coursera-Algorithms/blob/master/Divide%20and%20Conquer/week3/random_select.py)  </br>
