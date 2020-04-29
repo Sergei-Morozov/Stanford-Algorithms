@@ -58,7 +58,7 @@ def heappop(heap):
     """
     - delete root
     - move last to root
-    - blance
+    - balance
     """
     root = heap[0]
     heap[0] = heap.pop()

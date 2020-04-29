@@ -12,16 +12,16 @@ Dijkstra's shortest path
 """
 INPUT graph and weights
  ---->1--->
-| 2     1 |
-0         2
-| 3     2 |
+| 1   |  1 |
+0     |1    2
+| 3   |  2 |
  ---->3--->
 
 """
 
 graph = {
-    0: {1:2, 3:3},
-    1: {2:1},
+    0: {1:1, 3:3},
+    1: {2:1, 3:1},
     2: {},
     3: {2:2},
 }
@@ -85,25 +85,38 @@ def dijkstra_heap(graph, start):
     while heap:
         # get next step min distance vertex and add to explored
         distance, min_vertex = heapq.heappop(heap)
-        distances[min_vertex] = distance
-        explored.add(min_vertex)
 
-        # For E tail not yet explored update values if less
-        for tail in graph[min_vertex]:
-            if tail not in explored:
-                distance2tail = distance + graph[min_vertex][tail]
-                if distances.get(tail, float('inf')) > distance2tail:
-                    heapq.heappush(heap, (distance2tail, tail))
+        if min_vertex not in explored:
+            distances[min_vertex] = distance
+            explored.add(min_vertex)
+
+            # For E tail not yet explored update values
+            for tail in graph[min_vertex]:
+                if tail not in explored:
+                    distance2tail = distance + graph[min_vertex][tail]
+                    if distances.get(tail, float('inf')) > distance2tail:
+                        distances[tail] = distance2tail
+                        heapq.heappush(heap, (distance2tail, tail))
     return distances
 
+def quiz():
+    graph = {k:{} for k in range(1, 201)}
+    with open("input") as input:
+        for line in input:
+            vertex, *edges = line.split()
+            for pair in edges:
+                edge, weight = map(int, pair.split(','))
+                graph[int(vertex)][edge] = weight
+    distances = dijkstra_heap(graph, 1)
+    result = []
+    for edge in [7,37,59,82,99,115,133,165,188,197]:
+        result.append(distances[edge])
+    print(result)
 
 
-
-
-
-print(dijkstra_list(graph, 0))
-
-print(dijkstra_heap(graph, 0))
-
+# print(dijkstra_heap(graph, 0))
+# print(dijkstra_list(graph, 0))
 # draw_graph(graph)
+
+quiz()
 
