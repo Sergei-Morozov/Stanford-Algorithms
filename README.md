@@ -47,3 +47,14 @@ Problem: [Strongly Connected Components](https://github.com/Sergei-Morozov/Cours
 ### Week 5
 ### Programming Assignment 5: Path, Trees, Heaps
 Problem: [Dijkstra's shortest path](https://github.com/Sergei-Morozov/Coursera-Algorithms/blob/master/Divide%20and%20Conquer/week3/random_select.py)  </br>
+Problem: [Heap](https://github.com/Sergei-Morozov/Coursera-Algorithms/blob/master/Divide%20and%20Conquer/week3/random_select.py)  </br>
+Problem: [Binary tree](https://github.com/Sergei-Morozov/Coursera-Algorithms/blob/master/Divide%20and%20Conquer/week3/random_select.py)  </br>
+Problem: [Red Black tree](https://github.com/Sergei-Morozov/Coursera-Algorithms/blob/master/Divide%20and%20Conquer/week3/random_select.py)  </br>
+
+### Week 6
+### Programming Assignment 5: Hashing and Bloom Filters
+Problem: [Hash](https://github.com/Sergei-Morozov/Coursera-Algorithms/blob/master/Divide%20and%20Conquer/week3/random_select.py)  </br>
+
+
+
+
