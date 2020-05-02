@@ -19,12 +19,16 @@ def balance_down(heap):
     """
     i = 0
     left = 2*i + 1
-
-    while left < len(heap):
-        if heap[left]< heap[i]:
-            heap[i],heap[left] = heap[left],heap[i]
-        i = left
+    right = 2*i + 2
+    while left < len(self.heap):
+        if right < len(self.heap) and self.heap[right] <self.heap[left]:
+            self.heap[i],self.heap[right] = self.heap[right],self.heap[i]
+            i = right
+        else:
+            self.heap[i],self.heap[left] = self.heap[left],self.heap[i]
+            i = left
         left = 2*i + 1
+        right = 2*i + 2
 
 
 
