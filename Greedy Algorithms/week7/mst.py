@@ -98,41 +98,69 @@ def prim_iterative(graph):
             total_weight += result[v][e]
     print("total", total_weight)
 
-from heapq import heappush, heappop
-def prim_queue(graph):
+def prim_dict(graph):
     """
-    Get MST from graph
+    Get MST from graph (same as Dijkstra but distance are just edge weights)
     - Start a random v
-    - for each unxplored v get min edge.
+    - for each unxplored v get min distnce.
     - repeat
     """
-    queue = []
-    result = {v:{} for v in graph}
-    unxeplored = {v for v in graph}
+    distances = dict()
+    unxeplored  = {v for v in graph}
 
-    for start in graph:
-        tail in graph[start]:
-            heappush((graph[start][tail], start, tail))
+    #update start point
+    vertex = unxeplored.pop()
+    distances[vertex] = 0
+    for tail in graph[vertex]:
+        distances[tail] = graph[vertex][tail]
 
-    while queue:
-        min_vertex = (float('inf'), None, None)
-        for start in explored:
-            for tail in graph[start]:
-                #pick min tail
-                if tail in unxeplored and graph[start][tail] < min_vertex[0]:
-                    min_vertex = (graph[start][tail], start, tail)
-        result[min_vertex[1]][min_vertex[2]] = min_vertex[0]
-        explored.add(min_vertex[2])
-        unxeplored.remove(min_vertex[2])
+    while unxeplored:
+        min_vertex = None
+        for vertex in unxeplored:
+            if vertex in distances:
+                if distances.get(min_vertex, float('inf')) > distances[vertex]:
+                    min_vertex = vertex
+        unxeplored.remove(min_vertex)
+
+        for tail in graph[min_vertex]:
+            if tail in unxeplored:
+                if distances.get(tail, float('inf')) > graph[min_vertex][tail]:
+                    distances[tail] = graph[min_vertex][tail]
+
     total_weight = 0
     # from result graph calculate weight
-    for v in result:
-        for e in result[v]:
-            total_weight += result[v][e]
+    for v in distances:
+        total_weight += distances[v]
     print("total", total_weight)
 
+from heapq import heappush, heappop
+def prim_heap(graph):
+    """
+    Use Heap to get min distance same as dict
+    """
+    distances = dict()
+    explored = set()
 
-# prim_iterative(graph)
+    # start with ~random~ vertex
+    heap =[(0, 1)]
+
+    while heap:
+        min_distance, min_vertex = heappop(heap)
+        if min_vertex not in explored:
+            explored.add(min_vertex)
+            distances[min_vertex] = min_distance
+
+            # update tails
+            for tail in graph[min_vertex]:
+                if tail not in explored:
+                    heappush(heap, (graph[min_vertex][tail], tail))
+
+    # from result graph calculate weight
+    total_weight = 0
+    for v in distances:
+        total_weight += distances[v]
+    print("total", total_weight)
+    return distances
 
 from collections import defaultdict
 
@@ -147,5 +175,6 @@ def test_quiz3(input):
             graph[end][start] = weight
     # draw_graph(graph)
     prim_iterative(graph)
-
-test_quiz3("test_quiz3")
+    prim_dict(graph)
+    prim_heap(graph)
+test_quiz3("quiz3")

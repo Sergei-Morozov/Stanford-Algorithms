@@ -64,7 +64,12 @@ Problem: [Median Heap](https://github.com/Sergei-Morozov/Coursera-Algorithms/blo
 ### Programming Assignment: Greedy Algorithms
 Problem: [LRU cache]()  </br>
 Problem: [Job Schedule]()  </br>
-Problem: [Minimum Spanning Tree]()  </br>
+Problem: [Prims MST]()  </br>
 
+### Week 8
+### Programming Assignment: Greedy Algorithms
+Problem: [DSU]()  </br>
+Problem: [Kruskal MST]()  </br>
+Problem: [Clustering]()  </br>
 
 
