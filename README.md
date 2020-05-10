@@ -67,9 +67,13 @@ Problem: [Job Schedule]()  </br>
 Problem: [Prims MST]()  </br>
 
 ### Week 8
-### Programming Assignment: Greedy Algorithms
+### Programming Assignment: MST
 Problem: [DSU]()  </br>
 Problem: [Kruskal MST]()  </br>
 Problem: [Clustering]()  </br>
+
+### Week 8
+### Programming Assignment: Compression
+Problem: [HUFFMAN CODES]()  </br>
 
 
