@@ -1,7 +1,7 @@
 """
 Dynamic programming
 input: path graph  1---4---5---4
-output: independent set of maxi total weight
+output: independent set of max total weight
 
 Idea:
 An optimal solution can have one of two properties:
@@ -11,21 +11,32 @@ An optimal solution can have one of two properties:
 
 A[i] = max(A[i-1], A[i-2] +wi)
 """
+def wis_iterative(input, n):
+    """
+    Brute force approach
+    """
+    if n <= 0:
+        return 0
+    return max(wis_iterative(input, n-1), input[n] + wis_iterative(input, n-2))
 
-def wis(input):
-    results = [0 for _ in range(len(input) + 1)]
+
+def wis(input, n):
+    """
+    Use DP to calculate
+    """
+    results = [0 for _ in range(n + 1)]
     #base case
     results[0] = 0
     results[1] = input[1]
 
     # calculate max weight
-    for i in range(2,len(input)+1):
+    for i in range(2, n):
         results[i] = max(results[i-1], results[i-2]+input[i])
 
     final_set = []
 
     #trace back
-    idx = len(input) - 1
+    idx = n - 1
     while i >= 1:
         #not included
         if results[i] == results[i-1]:
@@ -37,9 +48,8 @@ def wis(input):
 
 def test1():
     input = {1:1, 2:4, 3:5, 4:4}
-    final = wis(input)
-    print(final)
-
+    print(wis(input), len(input))
+    print(wis_iterative(input, len(input)))
 test1()
 
 def quiz2():
@@ -58,5 +68,7 @@ def quiz2():
         else:
             result = result + "0"
     print(result)
-quiz2()
+
+if __name__ == '__main__':
+    quiz2()
 

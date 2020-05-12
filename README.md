@@ -72,8 +72,19 @@ Problem: [DSU]()  </br>
 Problem: [Kruskal MST]()  </br>
 Problem: [Clustering]()  </br>
 
-### Week 8
+### Week 9
 ### Programming Assignment: Compression
 Problem: [HUFFMAN CODES]()  </br>
+Problem: [Graph weighted independent set]()  </br>
+
+### Week 10
+### Programming Assignment: Dynamic Programming
+Problem: [Knapsnack]()  </br>
+Problem: [Sequence alignment]()  </br>
+Problem: [Optimal BST]()  </br>
 
 
+## [Shortest Paths Revisited, NP-Complete Problems and What To Do About Them](https://www.coursera.org/learn/algorithms-npcomplete)
+
+### Week 11
+### Programming Assignment:
