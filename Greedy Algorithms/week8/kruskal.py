@@ -126,7 +126,7 @@ def test_quiz1(input):
     clustering(graph, 4)
 
 
-test_quiz1('quiz1')
+# test_quiz1('quiz1')
 
 
 
