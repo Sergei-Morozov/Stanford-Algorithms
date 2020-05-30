@@ -1,7 +1,7 @@
 """
 Determenistic select ith order value from unsroted array
 Works exactly in O(n)=n time using median of median
-1. Get n/5 splits from original array ans sort them
+1. Get n/5 splits from original array and sort them
 2. From n/5 arrays get their median elements and then select its n/10 (it will be bigger then 3n/10 elements)
 3. Use this as pivot, move to right position, procced with left or right part recursivelly
 """

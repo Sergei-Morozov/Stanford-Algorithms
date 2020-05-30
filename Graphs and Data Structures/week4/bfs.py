@@ -30,8 +30,8 @@ graph = {
 def bsf_search(graph, start):
     """
     1. mark start explored (put in FIFO)
-    2. while queue,
-       - get 1st element
+    2. while queue
+       - get 1st element from queue
        - check unxeplored edges tails
        - put unxeplored tails to end of queue
        - put unxeplored tails destinace (previous + 1)

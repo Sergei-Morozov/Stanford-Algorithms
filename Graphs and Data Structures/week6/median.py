@@ -1,7 +1,7 @@
 """
 Calculate:
     - sum of medians mod 1000 from 1 to 10000
-    - as example median(5) is median of 5 firts elements
+    - as example median(5) is median of 5 first elements
 input:
     - list of the integers from 1 to 10000 in unsorted order
 """

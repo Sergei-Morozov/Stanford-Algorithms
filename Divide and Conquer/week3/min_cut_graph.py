@@ -44,7 +44,6 @@ def minimal_cut(graph):
     Cut graph in 2 parts
     """
     #base case
-    print(graph)
     vertices = list(graph.keys())
     if len(vertices) == 2:
         return graph
