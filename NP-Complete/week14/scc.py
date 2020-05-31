@@ -1,4 +1,6 @@
 """
+Refer to week4
+
 Determine strongly connected components (DFS)
 Kosaraju Two-Pass algorithm
 - make G(reversed) = G with all arcs reversed
@@ -72,6 +74,7 @@ def scc(graph):
 
     return components
 
+
 def test1():
     """
     It has 3 components
@@ -118,31 +121,4 @@ def test2():
 
     components = scc(graph)
     print(components)
-
-def quiz():
-    """
-    Solve quiz for week 4
-    """
-    graph = {i:[] for i in range(1, 875715)}
-
-    # parse input data to adj list
-    with open("scc-input") as input:
-        for edge in input:
-            head, tail = edge.split()
-            graph[int(head)].append(int(tail))
-
-    components = scc(graph)
-    print(components)
-
-
-if __name__ == '__main__':
-    test1()
-    test2()
-# quiz is too large to handle, set sys and threading
-# import sys
-# sys.setrecursionlimit(800000)
-# import threading
-# threading.stack_size(67108864)
-# thread = threading.Thread(target=quiz)
-# thread.start()
 

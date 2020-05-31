@@ -48,6 +48,8 @@ def local_2sat(n, m):
                 return True
     return False
 
+from scc import scc
+
 def scc_2sat(size, m):
     """
     AvB = True as: (not A => B) or  (not B => A) as graph edges
@@ -63,7 +65,13 @@ def scc_2sat(size, m):
 
     components = scc(graph)
 
-    for
+    # check in each component a and not a
+    for comp in components:
+        vertices = set(comp)
+        for v in vertices:
+            if -v in vertices:
+                return False
+    return True
 
 
 
@@ -79,8 +87,13 @@ def test_quiz(input):
             n1, n2 = map(int, line.split())
             m.append((n1, n2))
         # result = local_2sat(n, m)
+        # print(result)
         result = scc_2sat(number, m)
         print(result)
 
 test_quiz('2sat1')
-
+test_quiz('2sat2')
+test_quiz('2sat3')
+test_quiz('2sat4')
+test_quiz('2sat5')
+test_quiz('2sat6')
