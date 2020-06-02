@@ -62,29 +62,48 @@ Problem: [Median Heap](https://github.com/Sergei-Morozov/Coursera-Algorithms/blo
 
 ### Week 7
 ### Programming Assignment: Greedy Algorithms
-Problem: [LRU cache]()  </br>
-Problem: [Job Schedule]()  </br>
-Problem: [Prims MST]()  </br>
+Problem: [LRU cache](https://github.com/Sergei-Morozov/Stanford-Algorithms/blob/master/Greedy%20Algorithms/week7/cache.py)  </br>
+Problem: [Job Schedule](https://github.com/Sergei-Morozov/Stanford-Algorithms/blob/master/Greedy%20Algorithms/week7/schedule.py)  </br>
+Problem: [Prims MST](https://github.com/Sergei-Morozov/Stanford-Algorithms/blob/master/Greedy%20Algorithms/week7/mst.py)  </br>
 
 ### Week 8
 ### Programming Assignment: MST
-Problem: [DSU]()  </br>
-Problem: [Kruskal MST]()  </br>
-Problem: [Clustering]()  </br>
+Problem: [DSU](https://github.com/Sergei-Morozov/Stanford-Algorithms/blob/master/Greedy%20Algorithms/week8/dsu.py)  </br>
+Problem: [Kruskal MST](https://github.com/Sergei-Morozov/Stanford-Algorithms/blob/master/Greedy%20Algorithms/week8/kruskal.py)  </br>
+Problem: [Clustering](https://github.com/Sergei-Morozov/Stanford-Algorithms/blob/master/Greedy%20Algorithms/week8/kruskal.py)  </br>
 
 ### Week 9
 ### Programming Assignment: Compression
-Problem: [HUFFMAN CODES]()  </br>
-Problem: [Graph weighted independent set]()  </br>
+Problem: [HUFFMAN CODES](https://github.com/Sergei-Morozov/Stanford-Algorithms/blob/master/Greedy%20Algorithms/week9/huffman.py)  </br>
+Problem: [Graph weighted independent set](https://github.com/Sergei-Morozov/Stanford-Algorithms/blob/master/Greedy%20Algorithms/week9/wis.py)  </br>
 
 ### Week 10
 ### Programming Assignment: Dynamic Programming
-Problem: [Knapsnack]()  </br>
-Problem: [Sequence alignment]()  </br>
-Problem: [Optimal BST]()  </br>
+Problem: [Knapsnack](https://github.com/Sergei-Morozov/Stanford-Algorithms/blob/master/Greedy%20Algorithms/week10/knapsack.py)  </br>
+Problem: [Sequence alignment](https://github.com/Sergei-Morozov/Stanford-Algorithms/blob/master/Greedy%20Algorithms/week10/sequence.py)  </br>
 
 
 ## [Shortest Paths Revisited, NP-Complete Problems and What To Do About Them](https://www.coursera.org/learn/algorithms-npcomplete)
 
 ### Week 11
 ### Programming Assignment:
+Problem: [Bellman-Ford](https://github.com/Sergei-Morozov/Stanford-Algorithms/blob/master/NP-Complete/week11/bellman_ford.py)  </br>
+Problem: [Floyd-warshall](https://github.com/Sergei-Morozov/Stanford-Algorithms/blob/master/NP-Complete/week11/floyd_warshall.py)  </br>
+Problem: [Johnson](https://github.com/Sergei-Morozov/Stanford-Algorithms/blob/master/NP-Complete/week11/johnson.py)  </br>
+
+### Week 12
+### Programming Assignment:
+Problem: [TSP](https://github.com/Sergei-Morozov/Stanford-Algorithms/blob/master/NP-Complete/week12/tsp.py)  </br>
+Problem: [Vertex cover](https://github.com/Sergei-Morozov/Stanford-Algorithms/blob/master/NP-Complete/week12/vertex_cover.py)  </br>
+
+### Week 13
+### Programming Assignment:
+Problem: [knapsack](https://github.com/Sergei-Morozov/Stanford-Algorithms/blob/master/NP-Complete/week13/knapsack.py)  </br>
+Problem: [TSP](https://github.com/Sergei-Morozov/Stanford-Algorithms/blob/master/NP-Complete/week13/tsp.py)  </br>
+
+### Week 14
+### Programming Assignment:
+Problem: [2sat](https://github.com/Sergei-Morozov/Stanford-Algorithms/blob/master/NP-Complete/week14/2sat.py)  </br>
+Problem: [Stable-Marriage](https://github.com/Sergei-Morozov/Stanford-Algorithms/blob/master/NP-Complete/week14/stable.py)  </br>
+Problem: [Max-Flow](https://github.com/Sergei-Morozov/Stanford-Algorithms/blob/master/NP-Complete/week14/max_flow.py)  </br>
+

@@ -30,11 +30,10 @@ def wis(input, n):
     results[1] = input[1]
 
     # calculate max weight
-    for i in range(2, n):
+    for i in range(2, n+1):
         results[i] = max(results[i-1], results[i-2]+input[i])
 
     final_set = []
-
     #trace back
     idx = n - 1
     while i >= 1:
@@ -48,9 +47,9 @@ def wis(input, n):
 
 def test1():
     input = {1:1, 2:4, 3:5, 4:4}
-    print(wis(input), len(input))
+    print(wis(input, len(input)))
     print(wis_iterative(input, len(input)))
-test1()
+
 
 def quiz2():
     data = {}
@@ -70,5 +69,6 @@ def quiz2():
     print(result)
 
 if __name__ == '__main__':
-    quiz2()
+    test1()
+    # quiz2()
 
